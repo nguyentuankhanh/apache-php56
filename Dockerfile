@@ -17,7 +17,7 @@ RUN curl  -k -sS https://getcomposer.org/installer | php && mv composer.phar /us
 #Clean yum cache
 RUN yum clean -y all
 
-Add volume
+#Add volume
 VOLUME ["/var/www/html"]
 
 #Open port 80,443
