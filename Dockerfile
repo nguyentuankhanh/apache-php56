@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:centos6
 
 MAINTAINER KhanhNT nguyen.tuankhanh@rivercrane.vn
 
